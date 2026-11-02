@@ -1,4 +1,4 @@
-package com.example.util
+package com.bgfcl.util
 
 import android.app.DownloadManager
 import android.content.Context

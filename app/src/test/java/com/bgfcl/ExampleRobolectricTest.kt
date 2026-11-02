@@ -1,8 +1,8 @@
-package com.example
+package com.bgfcl
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import com.example.util.NetworkStatus
+import com.bgfcl.util.NetworkStatus
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Test

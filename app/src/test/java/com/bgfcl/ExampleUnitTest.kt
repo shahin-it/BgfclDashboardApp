@@ -1,4 +1,4 @@
-package com.example
+package com.bgfcl
 
 import org.junit.Assert.*
 import org.junit.Test

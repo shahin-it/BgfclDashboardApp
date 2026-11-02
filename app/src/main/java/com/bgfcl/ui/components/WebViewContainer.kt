@@ -1,4 +1,4 @@
-package com.example.ui.components
+package com.bgfcl.ui.components
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -45,7 +45,6 @@ fun WebViewContainer(
             settings.apply {
                 javaScriptEnabled = true
                 domStorageEnabled = true
-                databaseEnabled = true
 
                 allowFileAccess = true
                 allowContentAccess = true
@@ -84,10 +83,8 @@ fun WebViewContainer(
                     filePathCallback: ValueCallback<Array<Uri>>?,
                     fileChooserParams: FileChooserParams?
                 ): Boolean {
-                    if (filePathCallback != null && fileChooserParams != null) {
-                        return onShowFileChooser(filePathCallback, fileChooserParams)
-                    }
-                    return false
+                    return filePathCallback != null && fileChooserParams != null &&
+                        onShowFileChooser(filePathCallback, fileChooserParams)
                 }
             }
 

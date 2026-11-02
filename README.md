@@ -20,10 +20,10 @@ An Android client application for the **BGFCL Dashboard** (`http://180.211.173.1
 
 ## Project Structure
 
-- `app/src/main/java/com/example/MainActivity.kt` — Main entry point, file chooser activity result handling, permission requests, and back-stack handling.
-- `app/src/main/java/com/example/ui/components/WebViewContainer.kt` — Configured `WebView` composable with caching, file upload, and download listeners.
-- `app/src/main/java/com/example/util/DownloadHelper.kt` — Helper for queuing downloads via `DownloadManager` and resolving filenames/MIME types.
-- `app/src/main/java/com/example/util/NetworkObserver.kt` — Reactive network connectivity monitor using `ConnectivityManager.NetworkCallback`.
+- `bgfcl` — Main entry point, file chooser activity result handling, permission requests, and back-stack handling.
+- `bgfcl` — Configured `WebView` composable with caching, file upload, and download listeners.
+- `bgfcl` — Helper for queuing downloads via `DownloadManager` and resolving filenames/MIME types.
+- `bgfcl` — Reactive network connectivity monitor using `ConnectivityManager.NetworkCallback`.
 - `app/src/main/res/xml/network_security_config.xml` — Network security configuration enabling cleartext HTTP traffic for the BGFCL server.
 - `docs/app_screenshot.png` — Application preview screenshot.
 

@@ -1,4 +1,4 @@
-package com.example
+package com.bgfcl
 
 import android.Manifest
 import android.app.Activity
@@ -29,11 +29,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.ui.components.WebViewContainer
-import com.example.ui.theme.MyApplicationTheme
-import com.example.util.DownloadHelper
-import com.example.util.NetworkObserver
-import com.example.util.NetworkStatus
+import com.bgfcl.ui.components.WebViewContainer
+import com.bgfcl.ui.theme.MyApplicationTheme
+import com.bgfcl.util.DownloadHelper
+import com.bgfcl.util.NetworkObserver
+import com.bgfcl.util.NetworkStatus
 
 class MainActivity : ComponentActivity() {
 

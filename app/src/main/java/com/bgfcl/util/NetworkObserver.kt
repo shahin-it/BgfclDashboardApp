@@ -1,4 +1,4 @@
-package com.example.util
+package com.bgfcl.util
 
 import android.content.Context
 import android.net.ConnectivityManager
