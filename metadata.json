@@ -1,0 +1,6 @@
+{
+  "name": "BGFCL Dashboard",
+  "description": "BGFCL Dashboard web application with offline caching, file upload and download support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
