@@ -1,18 +1,54 @@
-*.iml
-.gradle
-.kotlin
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle & Kotlin files
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Local configuration & secrets
+local.properties
 /local.properties
+.env
+.env.*
+!.env.example
+
+# Keystores & signing credentials
+*.jks
+*.keystore
+debug.keystore
+
+# IntelliJ / Android Studio IDE files
+*.iml
+.idea/
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
+
+# Native build & profiling
+.externalNativeBuild/
+.cxx/
 /captures
-.externalNativeBuild
-.cxx
-local.properties
-.env
-debug.keystore
+*.hprof
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*~
+*.swp
