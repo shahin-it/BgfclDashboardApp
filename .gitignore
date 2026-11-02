@@ -52,3 +52,4 @@ debug.keystore
 Thumbs.db
 *~
 *.swp
+/gradle/gradle-daemon-jvm.properties
